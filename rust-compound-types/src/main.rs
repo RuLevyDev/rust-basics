@@ -72,6 +72,7 @@ fn main() {
 
     let level = Level::Junior;
     let number = 10;
+    //&mut: Esto indica que estás tomando una referencia mutable del valor al que estás apuntando. Es decir, estás creando una referencia que permite modificar el valor al que apunta.
     set_user_level(&mut user.lvl, level, number);
     println!("{:?}", user);
 
