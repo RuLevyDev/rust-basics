@@ -1,32 +1,86 @@
-# Proyectos de Rust
+<div align="center">
+<!-- Title: -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1024px-Rust_programming_language_black_logo.svg.png" width="100" height="100">
+<h1><a href="https://github.com/RuLevyDev
+/">Ruben Levy
+</a></h1>
+   
 
-Este repositorio contiene varios proyectos desarrollados en Rust. Cada proyecto se enfoca en diferentes aspectos del lenguaje Rust y puede servir como referencia, aprendizaje o como base para tus propios proyectos.
+# Rust Projects
 
-## Lista de Proyectos
+Este repositorio contiene múltiples ejemplos y proyectos en **Rust**, demostrando conceptos fundamentales como tipos compuestos, enums, funciones, HashMaps, vectores, manejo de JSON, entre otros. Además, incluye ejemplos prácticos como la simulación de un sistema de pedidos de autos y manejo de permisos de usuarios.
 
-1. **Proyecto 1**: [Descripción breve del proyecto 1]
+## Contenido
 
-   - [Enlace al directorio del proyecto 1]
+- **[Rust Arrays](rust-array)**: Ejemplos de arrays en Rust.
+- **[Rust Car Example](rust-car-example)**: Sistema de pedidos de autos utilizando structs, enums y HashMaps.
+- **[Rust Compound Types](rust-compound-types)**: Uso de tipos compuestos en Rust.
+- **[Rust Enums](rust-enums)**: Trabajo con enums y sus diferentes casos de uso.
+- **[Rust Functions](rust-functions)**: Definición y uso de funciones.
+- **[Rust HashMaps](rust-hashmaps)**: Ejemplos de creación y uso de HashMaps.
+- **[Rust JSON URLs](rust-json-urls)**: Ejemplos de manejo de JSON en Rust.
+- **[Rust Vectors](rust-vects)**: Uso de vectores en Rust.
 
-   [Breve descripción o resumen del propósito y funcionalidad del proyecto 1, así como cualquier característica destacada o punto de interés.]
+---
 
-2. **Proyecto 2**: [Descripción breve del proyecto 2]
+## Proyectos Destacados
 
-   - [Enlace al directorio del proyecto 2]
+### Proyecto 1: **Sistema de Pedidos de Autos**
+**[Rust Car Example](rust-car-example)**
+Este proyecto simula un sistema de fábrica de autos donde se crean vehículos con diferentes colores, tipos de transmisión y estilos de techo. Los autos pueden ser nuevos o usados, dependiendo de su kilometraje. Utiliza conceptos como structs, enums y HashMaps.  
 
-   [Breve descripción o resumen del propósito y funcionalidad del proyecto 2, así como cualquier característica destacada o punto de interés.]
+#### Características:
+- Personalización de autos.
+- Gestión de pedidos.
+- Clasificación de autos como nuevos o usados.
 
-3. **Proyecto 3**: [Descripción breve del proyecto 3]
+### Proyecto 2: **Sistema de Permisos de Usuarios**
+**[Rust Compound Types](rust-compound-types)**
 
-   - [Enlace al directorio del proyecto 3]
+Este proyecto maneja usuarios con diferentes niveles de permisos y roles. Permite la actualización de permisos y niveles utilizando funciones que interactúan con estructuras y enums.
 
-   [Breve descripción o resumen del propósito y funcionalidad del proyecto 3, así como cualquier característica destacada o punto de interés.]
+#### Características:
+- Definición de usuarios con permisos de lectura, escritura o ambos.
+- Actualización dinámica de roles y niveles.
+
+### Proyecto 3: **Manipulación de JSON**
+**[Rust JSON URLs](rust-json-urls)**  
+Ejemplo práctico de cómo manejar y procesar datos en formato JSON dentro de proyectos en Rust.
+
+#### Características:
+- Lectura y escritura de JSON.
+- Ejemplos prácticos de integración con APIs.
+
+---
 
 ## ¿Cómo Empezar?
 
-Si deseas explorar alguno de estos proyectos o contribuir con ellos, sigue estos pasos:
+Sigue estos pasos para explorar o contribuir a los proyectos de este repositorio:
 
-1. **Clonar el Repositorio**: Utiliza el siguiente comando para clonar este repositorio a tu máquina local:
+### 1. Clonar el Repositorio
+Clona este repositorio en tu máquina local con el siguiente comando:
+```bash
+git clone [https://github.com/RuLevyDev/rust-basics]
+```
 
-   ```bash
-   git clone [URL del repositorio]
+### 2. Explorar los Ejemplos
+Cada proyecto o ejemplo tiene su propio directorio con código fuente bien documentado. Navega al directorio que desees explorar:
+```bash
+cd [directorio-del-proyecto]
+```
+
+### 3. Compilar y Ejecutar
+Usa **cargo** para compilar y ejecutar los proyectos:
+```bash
+cargo run
+```
+
+---
+
+## Contacto
+
+Si tienes preguntas o comentarios, no dudes en contactarme.
+
+**Autor**: Ruben Levy  
+**Correo**: [rulevydeveloper@gmail.com]  
+
